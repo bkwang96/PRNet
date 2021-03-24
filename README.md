@@ -18,6 +18,8 @@ We experimentally evaluate the proposed PRNet on two popular benchmark datasets:
 |    FastDraw  |          GTX1080        |           95.2%          |    -       |    90   |       
 | PRNet (BiSeNet) |          GTX1080Ti   |           97.18%         |    74.8    |   110   |  
 | PRNet (ERFNet) |           GTX1080Ti   |          97.00%          |    76.4    |    81   |
+
+
 Some visual examples of our PRNet on several images are presented as follows.
 <img src="./img/show.png" width="1000"/>
 
