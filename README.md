@@ -1,7 +1,11 @@
 # Polynomial Regression Network for Variable-Number Lane Detection
 This repository is the official implementation of "Polynomial Regression Network for Variable-Number Lane Detection" (accepted by ECCV 2020). It is designed for lane detection task.
-
 [Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630698.pdf) 
+
+## Overall Network Architecture
+Lane detection is a fundamental yet challenging task in autonomous driving and intelligent traffic systems due to perspective projection and occlusion. Most of previous methods utilize semantic segmentation to identify the regions of traffic lanes in an image, and then adopt some curve-fitting method to reconstruct the lanes. 
+In this work, we propose to use polynomial curves to represent traffic lanes and then propose a novel polynomial regression network (PRNet) to directly predict them, where semantic segmentation is not involved. Specifically, PRNet consists of one major branch and two auxiliary branches: 
+(1) polynomial regression to estimate the polynomial coefficients of lanes, (2) initialization classification to detect the initial retrieval point of each lane, and (3) height regression to determine the ending point of each lane. Through the cooperation of three branches, PRNet can detect variable-number of lanes and is highly effective and efficient.The overall architecture of PRNet is shown as below.
 
 
 <img src="./img/show.png" width="860"/>
