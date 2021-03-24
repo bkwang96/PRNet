@@ -2,6 +2,8 @@
 This repository is the official implementation of "Polynomial Regression Network for Variable-Number Lane Detection" (accepted by ECCV 2020). It is designed for lane detection task.
 
 [Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630698.pdf) 
+
+
 <img src="./img/show.png" width="860"/>
 
 ## Install & Requirements
