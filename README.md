@@ -17,7 +17,7 @@ conda install --yes --file requirements.txt
 
 ## Demo
 We provide a trained model and some demo images.
-The trained model can be found in [prnet.pth](https://pan.baidu.com/s/1fiADGSgiS1zbQCa-jYaUwg) and the access code is 3fpc.
+The trained model can be found in [prnet.pth](https://pan.baidu.com/s/1fiADGSgiS1zbQCa-jYaUwg).
 For example, visualize our proposed method on the demo images, you can try:
 ````
 CUDA_VISIBLE_DEVICES=0 python demo.py
