@@ -21,6 +21,7 @@ We experimentally evaluate the proposed PRNet on two popular benchmark datasets:
 
 
 Some visual examples of our PRNet on several images are presented as follows.
+<img src="./img/lane_detection.gif" width="1000"/>
 <img src="./img/show.png" width="1000"/>
 
 
