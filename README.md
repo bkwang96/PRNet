@@ -20,16 +20,18 @@ We experimentally evaluate the proposed PRNet on two popular benchmark datasets:
 | PRNet (ERFNet) |           GTX1080Ti   |          97.00%          |    76.4    |    81   |
 
 
-Some visual examples of our PRNet on several images are presented as follows.
-<img src="./img/lane_detection.gif" width="1000"/>
+Some visual examples of our PRNet and other methods on several images of CULane dataset are presented as follows:
+
 <img src="./img/show.png" width="1000"/>
 
+The gif of our PRNet on several images of TuSimple dataset are presented as follows:
+<img src="./img/lane_detection.png" width="1000"/>
 
 ## Usage
 
 The code has been tested on pytorch=1.0.1 and python3.6. Please refer to `requirements.txt` for detailed information. You should install the packages with command bellow
 
-**To Install python packages**
+
 ````
 conda install --yes --file requirements.txt
 ````
