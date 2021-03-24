@@ -25,7 +25,7 @@ Some visual examples of our PRNet and other methods on several images of CULane 
 <img src="./img/show.png" width="1000"/>
 
 The gif of our PRNet on several images of TuSimple dataset are presented as follows:
-<img src="./img/lane_detection.png" width="1000"/>
+<img src="./img/lane_detection.gif" width="1000"/>
 
 ## Usage
 
